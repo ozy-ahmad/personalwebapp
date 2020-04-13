@@ -4,10 +4,8 @@ import React, { Component } from 'react'
     render() {
         return (
             <div>
-                <ul>
-                    <li>Adress</li>
-                    <li>Email</li>
-                </ul>
+                <hr />
+                &copy; Copyright 2020 by Ahmad Fakhrozy
             </div>
         )
     }

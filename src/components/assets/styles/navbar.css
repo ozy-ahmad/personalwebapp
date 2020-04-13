@@ -1,3 +1,31 @@
-.bg-color {
-    background-color: #e5e4cc;
+.navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed;
+    z-index: 1; */
+    
+}
+.textLogo {
+    display: inline-block;
+    padding: 15px 20px;
+    width: 50px;
+}
+.navLinks {
+    list-style: none;
+    
+}
+.navLinks li {
+    display: inline-block;
+    padding: 0px 20px;
+    color: white;
+    
+}
+.navLinks li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: black;
+}
+.navLinks li a:hover {
+    color: grey;
 }
